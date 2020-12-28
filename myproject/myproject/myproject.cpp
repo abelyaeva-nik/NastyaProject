@@ -1,5 +1,5 @@
 // myproject.cpp: определ€ет точку входа дл€ консольного приложени€.
-//
+//¬≈–—»я 1.0
 #include "stdafx.h"
 #include <iostream>
 #include "funcs.h"
