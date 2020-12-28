@@ -1,5 +1,5 @@
 // myproject.cpp: определ€ет точку входа дл€ консольного приложени€.
-//¬≈–—»я 1.0
+// VERSION 1.1
 #include "stdafx.h"
 #include <iostream>
 #include "funcs.h"
@@ -33,12 +33,20 @@ int main()
 	}
 	case 3: // если count = 3
 	{
-		cout << "V razrabotke";
+		cout << "Vvedite pervoe chislo: ";
+		cin >> a;
+		cout << "Vvedite vtoroe chislo: ";
+		cin >> b;
+		cout << MyMul(a, b) << endl; // выполнить умножение
 		break;
 	}
 	case 4: // если count = 4
 	{
-		cout << "V razrabotke";
+		cout << "Vvedite pervoe chislo: ";
+		cin >> a;
+		cout << "Vvedite vtoroe chislo: ";
+		cin >> b;
+		cout << MyDiv(a, b) << endl; // выполнить деление
 		break;
 	}
 	default: // если count равно любому другому значению
